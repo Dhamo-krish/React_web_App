@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body{
+	margin: 0;
+	padding: 0;
+	align-content: center;
+	/* background-position: ; */
+  background-repeat: repeat-x;
+	background-image: url(bg2.jpg);
+	font-family: sans-serif;
+}
+.login-box
+{
+	width:420px;
+	height:520px;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	top:20%;
+right: 5%;
+
+	align-items:  center;
+	justify-content:center;
+	position: absolute;
+	transform: translate(-50%,-50);
+	box-sizing: border-box;
+	padding: 70px 30px ;
+}
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 32px;
+}
+h1
+{
+	margin: 0;
+	padding: 10px 10px ;
+	color: #39dc79;
+	/*text-align: center;*/
+	font-size: 32px;
+}
+.login-box p{
+	margin-bottom:10px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.login-box input{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.login-box input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:  #39dc79;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #2e7d32;
+	color:#000;
+}
+.login-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#fff;
+}
+.login-box a:hover{
+	cursor: pointer;
+	color: #39dc79;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #39dc79;
+    padding-left: 10px;
+    opacity: 1; /* Firefox */
+}
+.Signin-box
+{
+	width:420px;
+	height:580px;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	top:10%;
+	left:35%;
+	align-content: center;
+	justify-content: center;
+	position: absolute;
+	transform: translate(-50%,-50);
+	box-sizing: border-box;
+	padding: 70px 30px ;
+}
+.Signin-box h1{
+	margin-top: -30px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #39dc79;
+	text-align: center;
+	font-size: 32px;
+
+}
+.Signin-box p{
+	margin:0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+.Signin-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.Signin-box input[type="text"],input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.Signin-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:  #39dc79;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.Signin-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #2e7d32;
+	color:#000;
+}
+.Signin-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color:#fff;
+}
+.Signin-box a:hover{
+	cursor: pointer;
+	color: #39dc79;
+}
+.container{
+	width: 100%;
+	margin:auto;
+	overflow: hidden;
+
+
+}
+
+header{
+	background: #35424a;
+	padding:20px;
+	border-bottom: #39dc79 2px solid;
+	min-height: 20px
+}
+header a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+
+	padding:0 20px 0 20px;
+}
+header li:hover{
+	cursor: pointer;
+	outline: none;
+    animation: mymove infinite 5s linear;
+	border-bottom: #39dc79 2px solid;
+}
+header #branding{
+	float: left;
+
+}
+header nav{
+	float: right;
+	margin-top:  -30px;
+}
+@keyframes mymove {
+  transform:
+}
+section {
+  width: 60%;
+	height:520px;
+	background:rgba(84,84,84,0.7);
+	color: #fff;
+	top:20%;
+  left: 5%;
+  border:  #39dc79 2px solid;
+	position: absolute;
+	transform: translate(-50%,-50);
+	box-sizing: border-box;
+	padding: 30px 30px ;
+
+}
+.descrip p{
+  color: rgb(176,176,176);
+  justify-content: center;
+}
+.descrip h2{
+  color:  #39dc79;
+justify-content: flex-start;
+}
